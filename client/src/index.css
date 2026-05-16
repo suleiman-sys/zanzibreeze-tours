@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #081120;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f97316;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ea580c;
+}
+/* GLOBAL SMOOTH UI */
+* {
+  scroll-behavior: smooth;
+}
+
+/* BODY */
+body {
+  overflow-x: hidden;
+  background: #081120;
+}
+
+/* SMOOTH IMAGE ANIMATION */
+img {
+  transition: all 0.6s ease;
+}
+
+/* BUTTON EFFECT */
+button {
+  transition: all 0.3s ease;
+}
+
+/* LINK EFFECT */
+a {
+  transition: all 0.3s ease;
+}
+
+/* PREMIUM HOVER */
+.hover-lift {
+  transition: all 0.4s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-10px);
+}
+
+/* GLASS EFFECT */
+.glass {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* PREMIUM SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #081120;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f97316;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ea580c;
+}
